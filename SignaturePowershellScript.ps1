@@ -3,9 +3,9 @@
 	sign your code with your own certificate 
 .DESCRIPTION
 	This Powershell script is used to sign your code with your own certificate. 
-	You can select one or more files to sign via a file dialog.
+	You can select one or more files to sign via file dialog.
 .EXAMPLE
-	PS> ./check-operating-system
+	PS> ./SignaturePowershellScript.ps1
 .LINK
 	https://github.com/AirForceOneLD/Powershell_Functions
 .NOTES

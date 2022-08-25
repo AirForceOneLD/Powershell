@@ -1,2 +1,2 @@
-# Powershell_Functions
-Useful Powershell functions for daily use
+# Powershell
+Useful Powershell scripts for daily use

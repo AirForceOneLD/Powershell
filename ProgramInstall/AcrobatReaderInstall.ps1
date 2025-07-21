@@ -282,7 +282,7 @@ try {
     # Starte den Installations- oder Aktualisierungsvorgang.
     $installVSC = Show-ModernMessageBox -Title 'Adobe Acrobat Reader Installation' -Message "Der Download der aktuellen Adobe Acrobat Reader Version ist beendet. Soll die Version '$latestVersion' installiert werden? " -Icon Question YesNo
     if ($installVSC -eq 'Yes') {
-        Start-Process -FilePath "$env:TEMP\Adobe.Acrobat.Reader-latest.exe" ArgumentList '-sfx_nu /sAll /rs /msi' -Wait
+        Start-Process -FilePath "$env:TEMP\Adobe.Acrobat.Reader-latest.exe" -ArgumentList '-sfx_nu /sAll /rs /msi' -Wait
         Write-Host "`n✅ Adobe Acrobat Reader Installation abgeschlossen.`n" -ForegroundColor Green
     } else {
         Show-ModernMessageBox -Title 'Adobe Acrobat Reader Installation' -Message 'Die Installation wurde vom Benutzer nicht zugelassen! Skript wird beendet' -Icon Information OK

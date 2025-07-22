@@ -7,7 +7,7 @@
 .BEISPIEL
 	PS> ./SetDefaultPrinterGUI_german.ps1
 .LINK
-	https://github.com/AirForceOneLD/Powershell_Functions
+	https://github.com/AirForceOneLD/MiscellaneousScripts/SetDefaultPrinterGUI_german.ps1
 .ANMERKUNG
 	Author: Michael Mayer
 
